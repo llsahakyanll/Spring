@@ -12,6 +12,7 @@ public class MyConfig {
     @Bean
     public Person personBean() {
         return new Person(dogBean());
+
     }
 
     @Bean
